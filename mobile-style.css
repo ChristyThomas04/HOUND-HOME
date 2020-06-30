@@ -1,0 +1,1142 @@
+
+/* Responsive */
+
+@media screen and (max-width: 1440px) and (orientation: landscape){
+    .hound{
+        letter-spacing: 20px;
+    }
+
+    .section-1 .row .col-md-6 .prat img {
+        width: 80%;
+        border-radius: 10px;
+    }
+
+    .section-1 .row .col-md-6 .pray img {
+        width: 80%;
+        border-radius: 10px;
+    }
+
+    .section-1 .row .col-md-6 .prey img {
+        width: 80%;
+        border-radius: 10px;
+    }
+
+    .inner{
+        /* height: 80%; */
+        padding-top:80px ;
+    }
+
+    #about{
+        min-height: 80%;
+    }
+}
+
+
+@media screen and (max-width: 1366px){
+    .hound{
+        letter-spacing: 30px;
+    }
+
+    #about{
+        min-height: 75%;
+    }
+
+    .inner{
+        /* height: 90%; */
+        padding-top:80px ;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .hound{
+        letter-spacing:20px;
+    }
+
+    .section-1 .row .col-md-6 .prat img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .section-1 .row .col-md-6 .pray img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .section-1 .row .col-md-6 .prey img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .section-1 .row .col-md-6 .patel {
+        position: absolute;
+        top: 2vmin;
+        right: -18vmin;
+        background: white;
+        border-radius: 10px;
+        text-align: left;
+        padding: 2vmin 8vmin 8vmin 3vmin;
+        box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    #services{
+        min-height: 75%;
+       background-color: white;
+       padding-top: 60px;
+    }
+
+    .shadowOne{
+        height: 200px;
+        width: 80%;
+        position: absolute;
+        border-radius: 10px;
+        bottom: -30;
+        left: 10%;
+        z-index: 100;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+        transition: transform 0.8s;
+        background-color: #121212 ;
+    }
+
+    .inner{
+        /* height: 90%; */
+        margin-bottom: 20px;
+    }
+
+    .contact{
+        height:75%; 
+    }
+
+    .user-form{
+        width: 75%;
+    }
+    
+    .copyright{
+        width: 100%;
+        text-align: center;
+        background-color: black;
+        position: relative;
+        height: 5%;
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width: 1366px) and (orientation: landscape){
+
+}
+
+@media screen and (max-width: 1024px) and (orientation: landscape){
+    .hound{
+        letter-spacing: 20px;
+    }
+    .section-1 .row .col-md-6 .prat img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .section-1 .row .col-md-6 .pray img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .section-1 .row .col-md-6 .prey img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    #services{
+        min-height: 100%;
+       background-color: white;
+       padding-top: 60px;
+    }
+
+    .inner{
+        /* height: 105%; */
+    }
+
+    .contact{
+        /* height:100%; */
+    }
+    
+    .copyright{
+        width: 100%;
+        text-align: center;
+        background-color: black;
+        position: relative;
+        height: 7.5%;
+        padding-top: 15px;
+        top:100;
+    }
+
+    .contact h1{
+        font-size: 2.5rem;
+        color: white;
+        text-align: center;
+        font-weight: 200; 
+        margin-top: 0px;
+    }
+    
+}
+
+@media screen and (max-width: 991px) {
+    .hound{
+        letter-spacing: 20px;
+    }
+
+    .section-1 .row .col-md-6 .prat img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .section-1 .row .col-md-6 .pray img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .section-1 .row .col-md-6 .prey img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .section-1 .row .col-md-6 .panel{
+        position: initial;
+        width: initial;
+        height: initial;
+        transition: none;
+        transform: none;
+    }
+
+    .section-1 .row .col-md-6 .plate{
+        position: initial;
+        width: initial;
+        height: initial;
+        transition: none;
+        transform: none;
+    }
+
+    .section-1 .row .col-md-6 .patel{
+        position: initial;
+        width: initial;
+        height: initial;
+        transition: none;
+        transform: none;
+    }
+
+    .section-1 .row .col-md-6 .patel h1 {
+        color: black;
+        font-weight: bold;
+        padding: 0.4em 0;
+        font-size: 2rem;
+      }
+
+
+    .inner{
+        /* height: 80%; */
+    }
+
+    .contact{
+        /* height: 105%; */
+    }
+    
+    #services{
+        min-height: 100%;
+        background-color: white;
+        padding-top: 40px;
+    }
+
+    .service h4{
+        padding-top: 20px;
+    }
+
+    .copyright{
+        /* top:100; */
+        font-size: 20px;
+        padding-top: 15px;
+    }
+}
+
+@media screen and (max-width: 823px) and (orientation: landscape){
+    .hound{
+        letter-spacing: 10px;
+    }
+
+    .section-1 .row .col-md-6 .panel{
+        position: initial;
+        width: initial;
+        height: initial;
+        transition: none;
+        transform: none;
+    }
+
+    .section-1 .row .col-md-6 .plate{
+        position: initial;
+        width: initial;
+        height: initial;
+        transition: none;
+        transform: none;
+    }
+
+    .section-1 .row .col-md-6 .patel{
+        position: initial;
+        width: initial;
+        height: initial;
+        transition: none;
+        transform: none;
+    }
+
+    .section-1 .row .col-md-6 .patel h1 {
+        color: black;
+        font-weight: bold;
+        padding: 0.4em 0;
+        font-size: 2em ;
+    }
+      
+    #services{
+        min-height: 100%;
+    }
+
+    .service{
+        margin-bottom: 60px !important;
+    }
+
+    .inner{
+        /* height: 100%; */
+    }
+
+    .contact{
+        /* height:100%; */
+    }
+
+    .service{
+        padding-top: 20px;
+    }
+
+    .contact{
+        /* height: 100%; */
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+        
+    .contact h1{
+        font-size: 2rem !important; 
+        margin-top: 0px;
+    }
+
+    .contact h4{
+        font-size: 1rem !important;
+        font-weight: 300; 
+        margin-top: 30px !important;
+        padding-left:20px ;
+    }
+
+    .contact p{
+        text-align: left;
+        font-weight: 100;
+        font-size: 0.75rem !important;
+        margin-bottom: 50px;
+    }
+
+    .inner{
+        /* height: 200%; */
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 10px;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+    }
+
+
+    .user-form{
+        background-color: black;
+        padding: 20px;
+        width: 75%;
+        /* height: 100%; */
+        border-radius: 0px 10px 10px 0px;
+    }
+
+    .copyright{
+        /* top:400; */
+        font-size: 10px;
+        padding-top:3px;
+    }
+}
+
+
+@media screen and (max-width: 812px) and (orientation: landscape){
+    .hound{
+        letter-spacing: 10px;
+    }
+
+    .section-1 .row .col-md-6 .panel{
+        position: initial;
+        width: initial;
+        height: initial;
+        transition: none;
+        transform: none;
+    }
+
+    .section-1 .row .col-md-6 .plate{
+        position: initial;
+        width: initial;
+        height: initial;
+        transition: none;
+        transform: none;
+    }
+
+    .section-1 .row .col-md-6 .patel{
+        position: initial;
+        width: initial;
+        height: initial;
+        transition: none;
+        transform: none;
+    }
+
+    .section-1 .row .col-md-6 .patel h1 {
+        color: black;
+        font-weight: bold;
+        padding: 0.4em 0;
+        font-size: 2em ;
+    }
+      
+    #services{
+        min-height: 100%;
+    }
+
+    .service{
+        margin-bottom: 60px !important;
+    }
+
+    .inner{
+        /* height: 100%; */
+    }
+
+    .contact{
+        /* height:100%; */
+    }
+
+    .service{
+        padding-top: 20px;
+    }
+
+    .contact{
+        /* height: 100%; */
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+        
+    .contact h1{
+        font-size: 2rem !important; 
+        margin-top: 0px;
+    }
+
+    .contact h4{
+        font-size: 1rem !important;
+        font-weight: 300; 
+        margin-top: 30px !important;
+        padding-left:20px ;
+    }
+
+    .contact p{
+        text-align: left;
+        font-weight: 100;
+        font-size: 0.75rem !important;
+        margin-bottom: 50px;
+    }
+
+    .inner{
+        /* height: 200%; */
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 10px;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+    }
+
+
+    .user-form{
+        background-color: black;
+        padding: 20px;
+        width: 75%;
+        /* height: 100%; */
+        border-radius: 0px 10px 10px 0px;
+    }
+
+    .copyright{
+        /* top:400; */
+        font-size: 10px;
+        padding-top:3px;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .hound{
+        letter-spacing: 10px;
+    }
+
+    .section-1 .row .col-md-6 .prat img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .section-1 .row .col-md-6 .pray img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .section-1 .row .col-md-6 .prey img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .section-1 .row .col-md-6 .panel{
+        position: initial;
+        width: initial;
+        height: initial;
+        transition: none;
+        transform: none;
+        padding: 2vmin 2vmin 4vmin 2vmin;        
+    }
+
+    .section-1 .row .col-md-6 .plate{
+        position: initial;
+        width: initial;
+        height: initial;
+        transition: none;
+        transform: none;
+        padding: 2vmin 2vmin 4vmin 2vmin;
+    }
+
+    .section-1 .row .col-md-6 .patel{
+        position: initial;
+        width: initial;
+        height: initial;
+        transition: none;
+        transform: none;
+        padding: 2vmin 2vmin 4vmin 2vmin;
+    }
+
+    .section-1 .row .col-md-6 .patel h1 {
+        color: black;
+        font-weight: bold;
+        padding: 0.4em 0;
+        font-size: 1.5em !important;
+    }
+
+    .section-1 .row .col-md-6 .panel h1 {
+        color: black;
+        font-weight: bold;
+        padding: 0.4em 0;
+        font-size: 1.5em !important;
+    }
+
+    .section-1 .row .col-md-6 .plate h1 {
+        color: black;
+        font-weight: bold;
+        padding: 0.4em 0;
+        font-size: 1.5em !important;
+    }
+      
+    #services{
+        min-height: 100%;
+    }
+
+    .service{
+        margin-bottom: 60px !important;
+    }
+
+    .inner{
+        /* height: 100%; */
+    }
+
+    .contact{
+        /* height:100%; */
+    }
+
+    .service{
+        padding-top: 20px;
+    }
+
+    .contact{
+        /* height: 100%; */
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+        
+    .contact h1{
+        font-size: 2rem !important; 
+        margin-top: 0px;
+    }
+
+    .contact h4{
+        font-size: 1rem !important;
+        font-weight: 300; 
+        margin-top: 30px !important;
+        padding-left:20px ;
+    }
+
+    .contact p{
+        text-align: left;
+        font-weight: 100;
+        font-size: 0.75rem !important;
+        margin-bottom: 50px;
+    }
+
+    .inner{
+        /* height: 75%; */
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 10px;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+    }
+
+
+    .user-form{
+        background-color: black;
+        padding: 20px;
+        width: 75%;
+        /* height: 100%; */
+        border-radius: 0px 10px 10px 0px;
+    }
+
+    .copyright{
+        /* top:75; */
+        font-size: 20px;
+        padding-top:15px;
+    }
+}
+
+@media screen and (max-width:736px) and (orientation: landscape){
+    .hound{
+        letter-spacing: 10px;
+    }
+
+    .navbar-nav .nav-item .nav-link:hover{
+        color:white;
+        border-bottom: 2px solid black !important;
+
+     }
+
+    .section-1 .row .col-md-6 .prat img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .section-1 .row .col-md-6 .pray img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .section-1 .row .col-md-6 .prey img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .section-1 .row .col-md-6 .panel{
+        position: relative;
+        width: 480px;
+        height: 450px;
+        padding: 5vmin 5vmin 5vmin 5vmin;        
+        top:-30vmin;
+        left: 4vmin;
+        text-align: center !important;
+    }
+
+    .section-1 .row .col-md-6 .plate{
+        position: relative;
+        width: 480px;
+        height: 400px;
+        padding: 5vmin 5vmin 5vmin 5vmin;        
+        top:-30vmin;
+        left: 4vmin;
+        text-align: center !important;
+    }
+
+    .section-1 .row .col-md-6 .patel{
+        position: relative;
+        width: 480px;
+        height: 380px;
+        padding: 5vmin 5vmin 5vmin 5vmin;        
+        top:+75vmin;
+        left: 4vmin;
+        text-align: center !important;
+    }
+
+    .section-1 .row .col-md-6 .prat img {
+        position: relative;
+        top: -100vmin;
+      }
+
+    .section-1 .row .col-md-6 .patel h1 {
+        color: black;
+        font-weight: bold;
+        padding: 0.4em 0;
+        font-size: 1.5em !important;
+    }
+
+    .section-1 .row .col-md-6 .panel h1 {
+        color: black;
+        font-weight: bold;
+        padding: 0.4em 0;
+        font-size: 1.5em !important;
+    }
+
+    .section-1 .row .col-md-6 .plate h1 {
+        color: black;
+        font-weight: bold;
+        padding: 0.4em 0;
+        font-size: 1.5em !important;
+    }
+      
+    #services{
+        min-height: 100%;
+    }
+
+    .service{
+        padding-top: 20px;
+    }
+
+    .shadowOne{
+        margin-bottom: 40px;
+    }
+
+    .contact{
+        /* height: 100%; */
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    .contact h1{
+        font-size: 2rem !important; 
+        margin-top: 0px;
+    }
+
+    .contact h4{
+        font-size: 1rem !important;
+        font-weight: 300; 
+        margin-top: 30px !important;
+        padding-left:20px ;
+    }
+
+    .contact p{
+        text-align: left;
+        font-weight: 100;
+        font-size: 0.75rem !important;
+        margin-bottom: 50px;
+    }
+
+    .inner{
+        /* height: 200%; */
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 10px;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+    }
+
+    .user-form{
+        background-color: black;
+        padding: 20px;
+        width: 75%;
+        /* height: 100%; */
+        border-radius: 0px 10px 10px 0px;
+    }
+
+    .copyright{
+        /* top:500 !important; */
+        font-size: 10px;
+        padding-top:5px;
+    }
+
+    #hello{
+        margin-bottom: 140px;
+    }
+    
+}
+
+@media screen and (max-width:640px){
+    .data{
+        font-size: 40px;
+    }
+    .hound{
+        line-height: 2.5em;
+        letter-spacing: 25px;
+    }
+    .section-1 .row .col-md-6 .prat img {
+        width: 80%;
+        border-radius: 10px;
+    }
+
+    .section-1 .row .col-md-6 .pray img {
+        width: 80%;
+        border-radius: 10px;
+    }
+
+    .section-1 .row .col-md-6 .prey img {
+        width: 80%;
+        border-radius: 10px;
+    }
+
+    .section-1 .row .col-md-6 .panel{
+        position: relative;
+        width: 500px;
+        height: 500px;
+        padding: 5vmin 5vmin 5vmin 5vmin;        
+        top:-30vmin;
+        left: 0vmin;
+        text-align: center !important;
+    }
+
+    .section-1 .row .col-md-6 .plate{
+        position: relative;
+        width: 500px;
+        height: 400px;
+        padding: 5vmin 5vmin 5vmin 5vmin;        
+        top:-30vmin;
+        left: 0vmin;
+        text-align: center !important;
+    }
+
+    .section-1 .row .col-md-6 .patel{
+        position: relative;
+        width: 500px;
+        height: 380px;
+        padding: 5vmin 5vmin 5vmin 5vmin;        
+        top:+80vmin;
+        left: 0vmin;
+        text-align: center !important;
+    }
+
+    .section-1 .row .col-md-6 .prat img {
+        position: relative;
+        top: -100vmin;
+      }
+
+    .section-1 .row .col-md-6 .patel h1 {
+        color: black;
+        font-weight: bold;
+        padding: 0.4em 0;
+        font-size: 1.5em !important;
+    }
+
+    .section-1 .row .col-md-6 .panel h1 {
+        color: black;
+        font-weight: bold;
+        padding: 0.4em 0;
+        font-size: 1.5em !important;
+    }
+
+    .section-1 .row .col-md-6 .plate h1 {
+        color: black;
+        font-weight: bold;
+        padding: 0.4em 0;
+        font-size: 1.5em !important;
+    }
+      
+    #services{
+        min-height: 100%;
+    }
+
+    .service{
+        padding-top: 20px;
+    }
+
+    .shadowOne{
+        margin-bottom: 40px;
+    }
+
+    #hello{
+        margin-bottom: 140px;
+    }
+
+    .pimg{
+        min-height:100% ;
+    }
+    .ptext{
+        top: 20%;
+    }
+
+
+    .contact{
+        height: auto;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    .contact h1{
+        font-size: 2rem !important; 
+        margin-top: 0px;
+    }
+
+    .contact h4{
+        font-size: 1.5rem !important;
+        font-weight: 300; 
+        margin-top: 30px !important;
+        padding-left:20px ;
+    }
+
+    .contact p{
+        text-align: left;
+        font-weight: 100;
+        font-size: 1rem !important;
+        margin-bottom: 50px;
+    }
+
+    .inner{
+        /* height: 100%; */
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+        padding: 10px ;
+        flex-direction: column;
+        
+    }
+
+    .user-form{
+        position: relative;
+        width: 100%;
+        background-color: black;
+        padding: 20px;
+        margin-bottom: 40px;
+        /* height: 90%; */
+        border-radius: 10px 10px 10px 10px;
+        
+    }
+
+    .copyright{
+        
+        font-size: 10px;
+        padding-top:5px;
+        /* top: 700; */
+    }
+
+
+}
+
+@media screen and (max-width: 414px) {
+    .data{
+        font-size: 40px;
+    }
+    .hound{
+        line-height: 2.5em;
+        letter-spacing: 25px;
+    }
+    .section-1 .row .col-md-6 .prat img {
+        width: 90%;
+        border-radius: 10px;
+    }
+
+    .section-1 .row .col-md-6 .pray img {
+        width: 90%;
+        border-radius: 10px;
+    }
+
+    .section-1 .row .col-md-6 .prey img {
+        width: 90%;
+        border-radius: 10px;
+    }
+
+    .section-1 .row .col-md-6 .panel{
+        position: relative;
+        width: 380px;
+        height: 500px;
+        padding: 5vmin 5vmin 5vmin 5vmin;        
+        top:-30vmin;
+        left: 0vmin;
+        text-align: center !important;
+    }
+
+    .section-1 .row .col-md-6 .plate{
+        position: relative;
+        width: 380px;
+        height: 400px;
+        padding: 5vmin 5vmin 5vmin 5vmin;        
+        top:-30vmin;
+        left: 0vmin;
+        text-align: center !important;
+    }
+
+    .section-1 .row .col-md-6 .patel{
+        position: relative;
+        width: 380px;
+        height: 380px;
+        padding: 5vmin 5vmin 5vmin 5vmin;        
+        top:+50vmin;
+        left: 0vmin;
+        text-align: center !important;
+    }
+
+    .section-1 .row .col-md-6 .prat img {
+        position: relative;
+        top: -100vmin;
+      }
+
+    .section-1 .row .col-md-6 .patel h1 {
+        color: black;
+        font-weight: bold;
+        padding: 0.4em 0;
+        font-size: 1.5em !important;
+    }
+
+    .section-1 .row .col-md-6 .panel h1 {
+        color: black;
+        font-weight: bold;
+        padding: 0.4em 0;
+        font-size: 1.5em !important;
+    }
+
+    .section-1 .row .col-md-6 .plate h1 {
+        color: black;
+        font-weight: bold;
+        padding: 0.4em 0;
+        font-size: 1.5em !important;
+    }
+      
+    #services{
+        min-height: 100%;
+    }
+
+    .service{
+        padding-top: 20px;
+    }
+
+    .shadowOne{
+        margin-bottom: 40px;
+    }
+
+    #hello{
+        margin-bottom: 140px;
+    }
+
+    .pimg{
+        min-height:100% ;
+    }
+    .ptext{
+        top: 20%;
+    }
+
+
+    .contact{
+        height: auto;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    .contact h1{
+        font-size: 2rem !important; 
+        margin-top: 0px;
+    }
+
+    .contact h4{
+        font-size: 1.5rem !important;
+        font-weight: 300; 
+        margin-top: 30px !important;
+        padding-left:20px ;
+    }
+
+    .contact p{
+        text-align: left;
+        font-weight: 100;
+        font-size: 1rem !important;
+        margin-bottom: 50px;
+    }
+
+    .inner{
+        /* height: 100%; */
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+        padding: 10px ;
+        flex-direction: column;
+        
+    }
+
+    .user-form{
+        position: relative;
+        width: 100%;
+        background-color: black;
+        padding: 20px;
+        margin-bottom: 40px;
+        /* height: 90%; */
+        border-radius: 10px 10px 10px 10px;
+        
+    }
+
+    .copyright{
+        
+        font-size: 10px;
+        padding-top:5px;
+        /* top: 700; */
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    .data{
+        font-size: 40px;
+    }
+
+    .hound{
+        font-size: 20px;
+        line-height: 50px;
+    }
+
+    .section-1 .row .col-md-6 .panel{
+        position: relative;
+        width: 350px;
+        height: 500px;
+        padding: 5vmin 5vmin 5vmin 5vmin;        
+        top:-30vmin;
+        left: 0vmin;
+        text-align: center !important;
+    }
+
+    .section-1 .row .col-md-6 .plate{
+        position: relative;
+        width: 350px;
+        height: 400px;
+        padding: 5vmin 5vmin 5vmin 5vmin;        
+        top:-30vmin;
+        left: 0vmin;
+        text-align: center !important;
+    }
+
+    .section-1 .row .col-md-6 .patel{
+        position: relative;
+        width: 350px;
+        height: 380px;
+        padding: 5vmin 5vmin 5vmin 5vmin;        
+        top:+50vmin;
+        left: 0vmin;
+        text-align: center !important;
+    }
+
+    #hello{
+        margin-bottom: 140px;
+    }
+
+}
+
+@media screen and (max-width: 375px) , screen and (max-height: 667px) {
+    
+}
+
+@media screen and (max-width: 360px) , screen and (max-height: 640px) {
+   
+}
+
+@media screen and (max-width: 320px) , screen and (max-height: 568px) {
+   
+}
