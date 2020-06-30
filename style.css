@@ -55,6 +55,15 @@ body{
     border-color: white ;
 }
 
+.navbar-light .navbar-nav .nav-link {
+    color:white !important;
+}
+
+.navbar-light .nav-nav .nav-link:hover{
+    color:white;
+    border-bottom: 2px solid white;
+ }
+
 
 /* End Nav Bar */
 
