@@ -17,9 +17,9 @@ $(function(){
       glitch2TimeMin: 10,
       glitch2TimeMax: 100,
     });
-  });
+});
 
-  $(document).ready(function () {
+$(document).ready(function () {
     var delay = 2000;
     $('.btn-default').click(function (e) {
         e.preventDefault();
@@ -59,11 +59,20 @@ $(function(){
             return false;
         }
 
+        var name = $('#company').val();
+        if (name == '') {
+            $('.message_box').html(
+                '<span style="color:white;">Enter Your Company Name!</span>'
+            );
+            $('#company').focus();
+            return false;
+        }
+
         $.ajax
             ({
                 type: "POST",
                 url: "ajax.php",
-                data: "name=" + name + "&email=" + email + "&phone=" + phone,
+                data: "name=" + name + "&email=" + email + "&phone=" + phone + "company=" + company + "designation=" + designation + "message=" + message,
                 beforeSend: function () {
                     $('.message_box').html(
                         '<div class="spinner-border text-light" role="status"> <span class="sr-only">Loading...</span> </div>'
@@ -75,6 +84,7 @@ $(function(){
                     }, delay);
                 }
             });
+
     });
 
 });
