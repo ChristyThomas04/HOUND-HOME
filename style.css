@@ -667,6 +667,13 @@ textarea{
     margin: 12px 5px;
 }
 
+.pd-telephone-input{
+    color: white;
+    text-align: left;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
 .btn{
     margin-top: 30px;
     color: #fff;
