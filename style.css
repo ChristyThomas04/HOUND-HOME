@@ -18,15 +18,17 @@ body{
     background-color: #121212;
     font-family: 'poppins', sans-serif;
     overflow-x: hidden;
+    
 }
 
 /* Start Nav Bar  */
 
 .navbar{
-    width: 100%;
+    width: 100% ;
     background-color:black;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16);
     position: fixed;   
+    z-index: 2000;
 }
 
 
@@ -100,7 +102,7 @@ p {
     top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 2000;
+    z-index: 200;
     text-shadow: 0 0 20px white ;
     
 }
@@ -112,7 +114,7 @@ p {
     position: absolute;
     top:0;
     left: 0;
-    z-index: 1999;
+    z-index: 199;
     color: white;
     filter: blur(2px);
     
@@ -127,7 +129,7 @@ p {
     width: 100%;
     height: 100%;
     color: white;
-    z-index: 1998;
+    z-index: 198;
     opacity: .5;
     filter: blur(2px);
 }
@@ -144,8 +146,6 @@ p {
 }
 
 
-
-
 .contain{
     background-color: black !important;
 }
@@ -153,7 +153,7 @@ p {
 .glitch-img{
     position: absolute;
     width: 100%;
-    height: 100%; 
+    height: auto; 
     background-position: center;
     background-size: cover;
  }
@@ -167,7 +167,7 @@ p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 2000;
+    z-index: 200;
     
 }
 
@@ -210,6 +210,14 @@ p {
    letter-spacing: 1em;
    font-size: 30px;
    color: #000;
+}
+
+.h-25{
+    margin-bottom: 30px !important;
+}
+
+.text-area{
+    margin-top: 30px !important;
 }
 
 
@@ -328,6 +336,7 @@ p {
   .section-1 .row .col-md-6 .pray img {
     width: 75%;
     border-radius: 10px;
+    margin-bottom: 30px !important;
   }
   
   .section-1 .row .col-md-6:last-child {
@@ -344,6 +353,7 @@ p {
     padding: 2vmin 8vmin 6vmin 3vmin;
     box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    margin-bottom: 30px !important;
   }
   
   .section-1 .row .col-md-6 .panel h1 {
@@ -362,12 +372,14 @@ p {
   .section-1 .row .col-md-6 .prat img {
     width: 75%;
     border-radius: 10px;
+    margin-bottom: 30px !important;
   }
 
 
   .section-1 .row .col-md-6 .prey img {
     width: 75%;
     border-radius: 10px;
+    margin-top:30px !important;
   }
 
   .section-1 .row .col-md-6 .patel {
@@ -380,6 +392,7 @@ p {
     padding: 2vmin 8vmin 10vmin 3vmin;
     box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    margin-bottom: 30px !important;
   }
   
   .section-1 .row .col-md-6 .patel h1 {
@@ -415,6 +428,7 @@ p {
     padding: 2vmin 8vmin 10vmin 3vmin;
     box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    margin-top:30px !important;
   }
   
   .section-1 .row .col-md-6 .plate h1 {
@@ -515,7 +529,6 @@ p {
 .arun{
     animation-delay:2.25s ;
 }
-
 
 /* team section end */
 
