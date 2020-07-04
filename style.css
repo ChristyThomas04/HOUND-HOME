@@ -212,28 +212,6 @@ p {
    color: #000;
 }
 
-.h-25{
-    margin-bottom: 20px;
-    animation: h-25;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-}
-
-@keyframes h-25{
-    0%{left: -1000px;}
-    100%{left:0px}
-}
-
-.text-white{
-    animation: text-white;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-}
-
-@keyframes text-white{
-    0%{right: -1000px;}
-    100%{right:0px}
-}
 
 
 /* end about */
@@ -520,16 +498,24 @@ p {
    color: #000;  
 }
 
-.future{
-    animation: future;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
+
+.future {
+    animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 3s; /* don't forget to set a duration! */
 }
 
-@keyframes future{
-    0%{right: 1000px}
-    100%{right: 0px}
+.paul{
+    animation-delay:0.75s ;
 }
+
+.liju{
+    animation-delay:1.5s ;
+}
+
+.arun{
+    animation-delay:2.25s ;
+}
+
 
 /* team section end */
 
