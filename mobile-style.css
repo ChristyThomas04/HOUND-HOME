@@ -83,6 +83,17 @@
         letter-spacing:20px ;
     }
 
+    .hound{
+        font-size: 40px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .hound::after{
+        width: 100%;
+        text-align: center;
+    }
+
     .section-1 .row .col-md-6 .prat img {
         width: 100%;
         border-radius: 10px;
@@ -1127,7 +1138,7 @@
 
 @media screen and (max-width: 414px) {
     .data{
-        font-size: 40px;
+        font-size: 35px;
     }
     .navbar-nav .nav-item .nav-link:hover{
         color:white;
@@ -1135,9 +1146,18 @@
     }
 
     .hound{
-        line-height: 2.5em;
-        letter-spacing: 25px;
+        width: 100%;
+        letter-spacing: 10px;
+        font-size: 25px;
+        text-align: center;
     }
+
+    .hound::after{
+        width: 100%;
+        text-align: center;
+    }
+
+
     .section-1 .row .col-md-6 .prat img {
         width: 90%;
         border-radius: 10px;
@@ -1291,7 +1311,11 @@
 
 @media screen and (max-width: 375px) {
     .data{
-        font-size: 40px;
+        font-size: 30px !important;
+    }
+
+    .navbar-brand{
+        width: 12.5rem;   
     }
 
     .navbar-nav .nav-item .nav-link:hover{
@@ -1329,7 +1353,7 @@
         width: 350px;
         height: 380px;
         padding: 5vmin 5vmin 5vmin 5vmin;        
-        top:+50vmin;
+        top:+70vmin !important;
         left: 0vmin;
         text-align: center !important;
     }
