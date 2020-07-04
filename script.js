@@ -5,7 +5,7 @@ $(window).scroll(function(){
     $('.boxtext').css('left','-'+(140+(scrollval/5.3))+'%');
 });
 
-$(function(){
+// $(function(){
     $(".glitch-img").mgGlitch({
       destroy: false,
       glitch: true,
@@ -17,7 +17,8 @@ $(function(){
       glitch2TimeMin: 10,
       glitch2TimeMax: 100,
     });
-});
+// });
+
 
 $(document).ready(function () {
     var delay = 2000;
